@@ -1,5 +1,5 @@
 {% set name = "thorlabs-apt-protocol" %}
-{% set version = "25.0.1" %}
+{% set version = "25.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 536190374681f9735f49e0327918f218cf64febdab32346c93affb3bd5aca6ec
+  sha256: acaefa014c7c70d3f574a397d258693e99234fb1acd86df10dcd9119a366adbf
 
 build:
   number: 0
